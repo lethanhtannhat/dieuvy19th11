@@ -292,7 +292,7 @@ with open("index.txt", "w") as f:
     f.write(str(index + 1))
 print(f"Updated index to {index + 1}")
 
-time.sleep(random.randint(180,450))     
+time.sleep(random.randint(180,300))     
 driver.close()
 
 
